@@ -2,19 +2,14 @@ package com.lkk.annotation.demo.comments;
 
 import com.lkk.annotation.demo.annotation.AuthAnnatation;
 import com.lkk.annotation.demo.eunm.AuthEnum;
-import com.lkk.annotation.demo.model.Student;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ObjectUtils;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+
 
 /**
  * @ClassName AuthInterceptor

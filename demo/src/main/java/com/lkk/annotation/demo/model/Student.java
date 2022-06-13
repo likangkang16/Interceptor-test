@@ -1,6 +1,5 @@
 package com.lkk.annotation.demo.model;
 
-import ch.qos.logback.classic.net.SimpleSSLSocketServer;
 
 /**
  * @ClassName Student
